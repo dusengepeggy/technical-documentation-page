@@ -101,11 +101,14 @@ a{
         border: 2px solid black;
         height: 300px;
         width: 100%;
-        
         overflow: scroll;
         top: 0;
         left: 0;
         
+        
+    }
+    .nav a:first-of-type{
+        margin-top: 75px;
     }
     .nav a,.nav header{
         text-decoration: none;
