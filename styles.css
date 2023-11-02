@@ -32,21 +32,16 @@ header{
     padding: 20px 15px;
     margin: 20px auto;
     font-size: small;
-    font-family: monospace;
+  font-family: monospace;
 }
-@media  only screen and (max-width: 815px){
-    nav{
-        width: 815px;
-        height: 200px;
 
-    }
-    
-}
 .gray p{
     padding:unset;
     margin: 5px;
 }
-
+@media (width>768px) {
+    
+}
 .nav{
   
     display: flex;
