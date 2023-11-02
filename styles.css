@@ -37,7 +37,7 @@ header {
     padding:unset;
     margin: 5px;
 }
-@media (width>768px) {
+@media (width>700px) {
     
 
 .nav{
@@ -92,7 +92,7 @@ li{
 a{
     color: blue;
 }
-@media (width<768px) {
+@media (width<700px) {
     .nav{
         margin: 0;
         display: flex;
@@ -115,5 +115,25 @@ a{
         
         
     }
+    .nav header{
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        border-bottom: 2px solid black;
+        background-color: white;
+    }
+    .second{
+        width: 80%;
+       height: 100%;
+       padding: 30px;
+       display: block;
+       align-items: center;
+       margin: auto;
+    
+    }
+    
     
 }
