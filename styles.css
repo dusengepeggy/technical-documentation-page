@@ -101,7 +101,7 @@ a{
         border: 2px solid black;
         height: 300px;
         width: 100%;
-        max-width: 500px;
+        
         overflow: scroll;
         top: 0;
         left: 0;
@@ -113,7 +113,7 @@ a{
         border-top: 1px solid black;
         border-collapse:collapse;
         padding:14px;
-        
+        width: 100%;
         
     }
     .nav header{
